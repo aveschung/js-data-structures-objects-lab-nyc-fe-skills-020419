@@ -12,4 +12,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   return driver
 }
 
-function 
+function deleteFromDriverByKey(driver, key)
+  let driverCopy = {...driver}
+  delete 
