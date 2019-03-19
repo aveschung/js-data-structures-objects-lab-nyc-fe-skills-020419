@@ -2,6 +2,9 @@
 const driver = {}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
+  // {}
+  // key
+  // value
   let driverCopy = {...driver}
   driverCopy[key] = value 
   return driverCopy
@@ -18,6 +21,9 @@ function deleteFromDriverByKey(driver, key) {
   return driverCopy
 }
 
-function 
+function destructivelyDeleteFromDriverByKey(driver, key) {
+  delete driver[key]
+}
+ 
   
   
